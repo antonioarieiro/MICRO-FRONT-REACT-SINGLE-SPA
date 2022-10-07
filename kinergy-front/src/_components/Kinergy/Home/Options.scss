@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+$primary-color : linear-gradient(to bottom right, #674AAD, #911057);
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.option {
+  padding: 8px;
+  text-align: center;
+  border-bottom: solid 1px;
+
+  &:hover {
+    border: solid 1px;
+    background: -webkit-linear-gradient(top left, #674AAD, #A988EF);
+    background: -moz-linear-gradient(top left, #674AAD, #A988EF);
+    background: $primary-color;
+    border-radius: 3%;
+  }
+}
+
+.selected-option {
+  padding: 8px;
+  text-align: center;
+  background: -webkit-linear-gradient(top left, #674AAD, #A988EF);
+  background: -moz-linear-gradient(top left, #674AAD, #A988EF);
+  background: $primary-color;
+  border-radius: 3%;
+}
+
+.header-main {
+  border-radius: 3px;
+  background: #2B1722;
+  background: -webkit-linear-gradient(top left, #2B1722, #311F31);
+  background: -moz-linear-gradient(top left, #2B1722, #311F31);
+  background: linear-gradient(to bottom right, #2B1722, #311F31);
+}
+
+.current-selected {
+  border-radius: 3px;
+  background: #2B1722;
+  background: -webkit-linear-gradient(top left, #2B1722, #311F31);
+  background: -moz-linear-gradient(top left, #2B1722, #311F31);
+  background: linear-gradient(to bottom right, #2B1722, #311F31);
+
+  .selected {
+    border-bottom: solid 1px gray;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-main {
+    width: 100%;
+  }
+}
+
+.trans {
+  transition: height 0.3s ease-in;
+}

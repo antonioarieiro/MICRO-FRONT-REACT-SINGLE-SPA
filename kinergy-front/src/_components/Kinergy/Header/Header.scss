@@ -1,0 +1,47 @@
+$primary-color : linear-gradient(to bottom right, #674AAD, #911057);
+
+.header {
+  background-color: #241520;
+  .menu-icon {
+    background-color: rgb(203 47 100);
+  }
+  
+  .primary-btn { 
+    background: -webkit-linear-gradient(top left, #674AAD, #A988EF); 
+    background: -moz-linear-gradient(top left, #674AAD, #A988EF); 
+    background: $primary-color;
+    border-radius: 3%;
+    padding: 9px;
+    color: white;
+    transition: all 0.3s;
+    &:hover {
+      padding: 12px;
+     
+    }
+  }
+  
+  .boll {
+    background: linear-gradient(to bottom right, #5A12A8, #cf0000);
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 100%;
+  }
+}
+
+.material-symbols-outlined {
+  font-size: 30px;
+}
+
+.menu-user {
+  border-radius: 3px;
+  background: #2B1722;
+  background: -webkit-linear-gradient(top left, #2B1722, #311F31);
+  background: -moz-linear-gradient(top left, #2B1722, #311F31);
+  background: linear-gradient(to bottom right, #2B1722, #311F31);
+  p {
+    padding: 6px;
+    &:hover {
+      border-bottom: 1px solid;
+    }
+  }
+}

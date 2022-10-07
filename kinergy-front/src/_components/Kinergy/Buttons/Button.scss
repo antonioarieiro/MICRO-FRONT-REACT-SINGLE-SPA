@@ -1,0 +1,25 @@
+$primary-color : linear-gradient(to bottom right, #674AAD, #911057);
+
+.primary-btn { 
+  background: -webkit-linear-gradient(top left, #674AAD, #A988EF); 
+  background: -moz-linear-gradient(top left, #674AAD, #A988EF); 
+  background: $primary-color;
+  border-radius: 3%;
+  padding: 9px;
+  color: white;
+  transition: all 0.3s;
+  &:hover {
+    padding: 12px;
+  }
+}
+
+.cancel-btn {
+  padding: 9px;
+  text-decoration: underline;
+  margin-right: 10px;
+  &:hover {
+    padding: 12px;
+    transition: all 0.3s;
+    background: linear-gradient(to bottom right, #100c0c, #190a26);
+  }
+}

@@ -1,0 +1,18 @@
+$primary-color : linear-gradient(to bottom right, #674AAD, #911057);
+.accounts {
+  &:hover {
+    background: lightgray;
+  }
+.acc-btn {
+  padding: 8px;
+  border: solid 1px pink;
+
+  &:hover {
+    color: white;
+    background: -webkit-linear-gradient(top left, #674AAD, #A988EF); 
+    background: -moz-linear-gradient(top left, #674AAD, #A988EF); 
+    background: $primary-color;
+    border-radius: 3%;
+  }
+}
+}

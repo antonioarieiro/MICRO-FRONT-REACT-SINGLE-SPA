@@ -1,0 +1,41 @@
+.btn-ranking {
+  border: solid 1px;
+  padding: 8px;
+  background: -webkit-linear-gradient(top left, #674AAD, #A988EF); 
+  background: -moz-linear-gradient(top left, #674AAD, #A988EF);
+  background: #ffff;
+  transition: all 0.4s ease-out;
+  &:hover {
+    padding: 9px;
+    margin-top: -2px;
+    color: white;
+    background:  linear-gradient(to bottom right, #674AAD, #911057);
+  }
+}
+
+.options-filter {
+  padding: 8px;
+    border-radius: 3%;
+    background:  linear-gradient(to bottom right, #674AAD, #911057);
+    color: white;
+    font-weight: 700;
+    p {
+      cursor: pointer;
+      height: 35px;
+      transition: all 0.2s ease-in;
+      &:hover {
+        height: 40px;
+        transition: all 0.2s ease-in;
+        background-color: #7e4970;
+        padding: 3px;
+        width: 100%;
+      }
+    }
+    .selected {
+      background-color: #241520;
+      padding: 3px;
+      width: 100%;
+    }
+ 
+}
+
